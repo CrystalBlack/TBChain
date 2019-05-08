@@ -9,7 +9,7 @@ extension NSMutableAttributedString: Chain {
 
 }
 
-extension ChainBoxContainer where T == NSMutableAttributedString {
+extension ChainBoxContainer where T : NSMutableAttributedString {
 
     /// 属性文本 - 链接
     ///
